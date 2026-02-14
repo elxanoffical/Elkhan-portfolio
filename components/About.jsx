@@ -10,7 +10,7 @@ export default function About() {
 
         {/* SECTION DIVIDER */}
         <div className="mt-4 mb-10">
-          <div className="h-[2px] w-full bg-[#6096B4] rounded-full" />
+          <div className="h-[2px] w-full max-w-md bg-[#6096B4] rounded-full" />
         </div>
 
         <p className="max-w-3xl text-lg leading-relaxed text-[#1F2933]/80">
