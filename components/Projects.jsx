@@ -8,20 +8,20 @@ const projects = [
   {
     title: 'AutoLux.az',
     description:
-      'Full-featured car marketplace platform with filtering, authentication, and optimized UI built using Next.js and Tailwind.',
+      'Full-featured car marketplace platform with user authentication, filtering, and responsive UI. Users can register, log in, and explore car listings seamlessly. Built for performance and maintainability..',
     image: '/projects/project1.png',
     github: 'https://github.com/elxanoffical/turbo.az',
     live: 'https://turbo-car-alpha.vercel.app/',
-    tools: ['Next.js', 'TypeScript', 'Tailwind', 'MongoDB', 'JWT']
+    tools: ['Next.js', 'Tailwind CSS', 'Hook Form', 'Date-fns','React Icons']
   },
   {
-    title: 'SaaS Dashboard',
+    title: 'Addax',
     description:
       'Modern analytics dashboard with reusable components, state management and smooth animations.',
     image: '/projects/project2.png',
     github: 'https://github.com/elxanoffical/Addax',
     live: 'https://addax-elxan.vercel.app/',
-    tools: ['React', 'Redux Toolkit', 'Framer Motion', 'Express', 'PostgreSQL']
+    tools: ['React.js', 'Sass', 'React-icons', 'Email.js',]
   }
 ]
 
