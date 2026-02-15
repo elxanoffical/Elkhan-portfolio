@@ -50,7 +50,7 @@ export default function Skills() {
 
         {/* FRONTEND */}
         <div className="mb-12 max-w-5xl">
-          <h3 className="text-xl font-semibold mb-4 text-[#1F2933]">
+          <h3 className="text-lg sm:text-xl font-semibold mb-4 text-[#1f2933]">
             Front-end Development
           </h3>
 
@@ -59,7 +59,7 @@ export default function Skills() {
               <span
                 key={skill}
                 className="
-                  px-4 py-2 rounded-full text-sm
+                  px-4 py-2 rounded-full text-[12px] sm:text-sm font-medium sm:font-normal
                   bg-[#BDCDD6] text-[#1F2933]
                   border border-transparent
                   transition cursor-pointer
@@ -76,7 +76,7 @@ export default function Skills() {
 
         {/* BACKEND */}
         <div className="mb-12 max-w-5xl">
-          <h3 className="text-xl font-semibold mb-4 text-[#1F2933]">
+          <h3 className="text-lg sm:text-xl font-semibold mb-4 text-[#1F2933]">
             Back-end Development
           </h3>
 
@@ -85,7 +85,7 @@ export default function Skills() {
               <span
                 key={skill}
                 className="
-                  px-4 py-2 rounded-full text-sm
+                  px-4 py-2 rounded-full text-[12px] sm:text-sm font-medium sm:font-normal
                   bg-[#BDCDD6] text-[#1F2933]
                   border border-transparent
                   transition
@@ -103,7 +103,7 @@ export default function Skills() {
 
         {/* SOFT SKILLS */}
         <div className="max-w-5xl">
-          <h3 className="text-xl font-semibold mb-4 text-[#1F2933]">
+          <h3 className="text-lg sm:text-xl font-semibold mb-4 text-[#1F2933]">
             Soft Skills
           </h3>
 
@@ -112,7 +112,7 @@ export default function Skills() {
               <span
                 key={skill}
                 className="
-                  px-4 py-2 rounded-full text-sm
+                  px-4 py-2 rounded-full text-[12px] sm:text-sm font-medium sm:font-normal
                   bg-[#BDCDD6] text-[#1F2933]
                   border border-transparent
                   transition

@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center bg-[#EEE9DA]">
-      <div className="grid md:grid-cols-2 mt-8 sm:mt-0 gap-15 w-full px-6 max-w-7xl mx-auto">
+      <div className="grid md:grid-cols-2 gap-15 w-full px-6 max-w-7xl mx-auto">
         {/* TEXT SIDE */}
         <FadeUp>
           <div>
@@ -62,7 +62,7 @@ export default function Hero() {
 
         {/* IMAGE SIDE */}
         <FadeUp>
-          <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-sm bg-[#BDCDD6]">
+          <div className="relative w-full h-[350px] sm:h-[500px] rounded-2xl overflow-hidden shadow-sm bg-[#BDCDD6]">
             <Image
               src="/pp.avif"
               alt="Elkhan profile photo"

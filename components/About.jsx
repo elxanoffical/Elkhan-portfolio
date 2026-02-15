@@ -41,24 +41,24 @@ export default function About() {
         </div>
 
         {/* OPTION 2 — STATS */}
-        <div className="mt-14 grid grid-cols-2 sm:grid-cols-3 gap-10 max-w-3xl">
+        <div className="mt-14 grid grid-cols-2 sm:grid-cols-3 gap-4 sm:gap-10 max-w-3xl">
           <div>
             <p className="text-3xl sm:text-4xl font-bold text-[#6096B4]">02+</p>
-            <p className="mt-2 text-[13px] sm:text-sm uppercase tracking-wide text-[#1F2933]/60">
+            <p className="mt-2 text-[12px] sm:text-sm uppercase tracking-wide text-[#1F2933]/60">
               Years Experience
             </p>
           </div>
 
           <div>
             <p className="text-3xl sm:text-4xl font-bold text-[#6096B4]">15+</p>
-            <p className="mt-2 text-[13px] sm:text-sm uppercase tracking-wide text-[#1F2933]/60">
+            <p className="mt-2 text-[12px] sm:text-sm uppercase tracking-wide  text-[#1F2933]/60">
               Projects Completed
             </p>
           </div>
 
           <div>
             <p className="text-3xl sm:text-4xl font-bold text-[#6096B4]">100%</p>
-            <p className="mt-2 text-[13px] sm:text-sm uppercase tracking-wide text-[#1F2933]/60">
+            <p className="mt-2 text-[12px] sm:text-sm uppercase tracking-wide text-[#1F2933]/60">
               Attention to Detail
             </p>
           </div>

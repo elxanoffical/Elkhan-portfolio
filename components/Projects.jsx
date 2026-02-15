@@ -46,7 +46,7 @@ export default function Projects() {
             flex md:grid md:grid-cols-2 gap-8
             overflow-x-auto md:overflow-visible
             snap-x snap-mandatory
-            pb-4 border border-black
+            pb-4
           "
         >
           {projects.map(project => (
@@ -63,13 +63,13 @@ export default function Projects() {
               "
             >
               {/* Image */}
-              <div className="relative h-56 w-full overflow-hidden">
+              <div className="relative h-42 w-full overflow-hidden sm:h-64">
                 <Image
                   src={project.image}
                   alt={project.title}
                   fill
                   className="
-                    object-top cursor-pointer
+                    sm:object-cover object-cover cursor-pointer
                     transition duration-500
                     group-hover:scale-105
                   "
