@@ -6,7 +6,7 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 export default function Hero() {
   return (
     <section className="min-h-screen flex items-center bg-[#EEE9DA]">
-      <div className="grid md:grid-cols-2 gap-20 w-full px-6 max-w-7xl mx-auto">
+      <div className="grid md:grid-cols-2 mt-8 sm:mt-0 gap-15 w-full px-6 max-w-7xl mx-auto">
         {/* TEXT SIDE */}
         <FadeUp>
           <div>
@@ -14,11 +14,11 @@ export default function Hero() {
               I am Elkhan
             </h1>
 
-            <p className="mt-6 text-xl text-[#6096B4]">
-              Frontend Developer & UI Engineer
+            <p className="mt-4 text-xl text-[#6096B4]">
+              Frontend Developer & UI Designer
             </p>
 
-            <p className="mt-6 max-w-xl leading-relaxed text-[#1F2933]/70">
+            <p className="mt-5 max-w-xl leading-relaxed text-[#1F2933]/70">
               I build clean, maintainable, and user-focused web interfaces. My
               work combines thoughtful design with solid frontend engineering.
             </p>

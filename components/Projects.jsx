@@ -8,7 +8,7 @@ const projects = [
   {
     title: 'AutoLux.az',
     description:
-      'Full-featured car marketplace platform with user authentication, filtering, and responsive UI. Users can register, log in, and explore car listings seamlessly. Built for performance and maintainability..',
+      'Full-featured car marketplace platform with user authentication, filtering, and responsive UI. Users can register, log in, and explore car listings seamlessly. ',
     image: '/projects/project1.png',
     github: 'https://github.com/elxanoffical/turbo.az',
     live: 'https://turbo-car-alpha.vercel.app/',
@@ -22,7 +22,7 @@ const projects = [
     github: 'https://github.com/elxanoffical/Addax',
     live: 'https://addax-elxan.vercel.app/',
     tools: ['React.js', 'Sass', 'React-icons', 'Email.js',]
-  }
+  },
 ]
 
 export default function Projects() {
@@ -36,7 +36,7 @@ export default function Projects() {
         </h2>
 
         {/* Divider */}
-        <div className="mt-4 mb-12">
+        <div className="mt-4 mb-8">
           <div className="h-[2px] w-full max-w-md bg-[#6096B4] rounded-full" />
         </div>
 
@@ -46,14 +46,14 @@ export default function Projects() {
             flex md:grid md:grid-cols-2 gap-8
             overflow-x-auto md:overflow-visible
             snap-x snap-mandatory
-            pb-4
+            pb-4 border border-black
           "
         >
           {projects.map(project => (
             <div
               key={project.title}
               className="
-                group min-w-[85%] sm:min-w-[70%] md:min-w-0
+                group min-w-[100%] sm:min-w-[70%] md:min-w-0
                 snap-start
                 rounded-2xl overflow-hidden
                 bg-white shadow-sm
@@ -69,7 +69,7 @@ export default function Projects() {
                   alt={project.title}
                   fill
                   className="
-                    object-center cursor-pointer
+                    object-top cursor-pointer
                     transition duration-500
                     group-hover:scale-105
                   "
@@ -77,7 +77,7 @@ export default function Projects() {
               </div>
 
               {/* Content */}
-              <div className="p-6">
+              <div className="p-3 sm:p-6">
 
                 <h3 className="text-xl font-semibold mb-3 text-[#1F2933]">
                   {project.title}

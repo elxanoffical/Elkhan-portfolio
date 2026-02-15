@@ -41,10 +41,10 @@ export default function Skills() {
   return (
     <Section>
       <FadeUp>
-        <h2 className="text-4xl font-semibold text-[#1F2933]">Skills</h2>
+        <h2 className="text-3xl sm:text-4xl font-semibold text-[#1F2933]">Skills</h2>
 
         {/* Divider */}
-        <div className="mt-4 mb-12">
+        <div className="mt-4 mb-8">
           <div className="h-[2px] w-full max-w-md bg-[#6096B4] rounded-full" />
         </div>
 
