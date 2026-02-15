@@ -64,7 +64,7 @@ export default function Hero() {
         <FadeUp>
           <div className="relative w-full h-[500px] rounded-2xl overflow-hidden shadow-sm bg-[#BDCDD6]">
             <Image
-              src="/"
+              src="/pp.avif"
               alt="Elkhan profile photo"
               fill
               className="object-cover"
